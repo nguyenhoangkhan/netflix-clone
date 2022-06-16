@@ -1,0 +1,58 @@
+.wrapper {
+  transition: background-color 0.5s;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding: 2rem 3.5rem 0 3.5rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5rem;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 170px;
+}
+.logoIcon {
+  fill: var(--primary-color);
+}
+.interactive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.languages{
+  position: relative;
+}
+.languages span{
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 6px;
+  font-size: 1rem;
+  color: var(--white-color);
+}
+.languages select {
+  border: 1px solid var(--white-color);
+  outline: none;
+  width: 115px;
+  padding: 8px 1.3rem;
+  padding-right: 0;
+  line-height: 1.3rem;
+  font-weight: 600;
+  background-color: transparent;
+  color: var(--white-color);
+  border-radius: 3px;
+}
+.languages select option{
+  background-color: #ccc;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+}
